@@ -5,3 +5,5 @@ angular.module('appname',[
   'angular-meteor',
   'ui.router'
 ]);
+
+angular.module('appname').run(function($state){});
